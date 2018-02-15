@@ -10,4 +10,4 @@ Para poder usar este material de forma interactiva
 
 El punto 3 creará un nuevo ambiente con todos los paquetes necesarios para el curso. Si no deseas crear un nuevo ambiente asegurate de ejecutar los comandos:
 
-`conda install numpy scipy matplotlib seaborn jupyter`
+`conda install numpy scipy matplotlib seaborn jupyter pandas`
