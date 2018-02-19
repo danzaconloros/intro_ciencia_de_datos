@@ -6,8 +6,10 @@ Para poder usar este material de forma interactiva
 
 1. Instalar [Anaconda](https://www.continuum.io/downloads) (Versión Python 3.x)
 2. [Descargar](https://github.com/aloctavodia/intro_ciencia_de_datos/archive/master.zip) o clonar el repositorio
-3. Desde el directorio descargado/clonado correr `conda env create -f env.yml`
+3. Elegir un de las dos siguientes opciones:
+    * Desde el directorio descargado/clonado ejecutar `conda env create -f env.yml`. Esto creará un nuevo ambiente con todos los paquetes necesarios para el curso.
+    * Ejecutar `conda install numpy scipy matplotlib seaborn jupyter pandas`. Esto instalará los paquetes necesarios en el ambiente por defecto.
 
-El punto 3 creará un nuevo ambiente con todos los paquetes necesarios para el curso. Si no deseas crear un nuevo ambiente asegurate de ejecutar los comandos:
+Si tenés dificultades para instalar paquetes o simplemente querés hechar un vistazo (y ejecutar) las notebooks podés probar con:
 
-`conda install numpy scipy matplotlib seaborn jupyter pandas`
+ [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/PrACiDa/intro_ciencia_de_datos/master)
